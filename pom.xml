@@ -27,13 +27,13 @@
   </build>
    <distributionManagement>
         <repository>
-            <id>deployment</id>
-            <name>Internal Releases</name>
+            <id>Release</id>
+            <name>nittu-rel</name>
             <url>http://192.168.57.4:8081/repository/nittu-rel/</url>
         </repository>
         <snapshotRepository>
-            <id>deployment</id>
-            <name>Internal Snapshot Releases</name>
+            <id>Snapshot</id>
+            <name>nittu-snapshot</name>
             <url>http://192.168.57.4:8081/repository/nittu-snapshot/</url>
         </snapshotRepository>
     </distributionManagement>
